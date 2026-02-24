@@ -1,0 +1,9 @@
+include: package:lints/recommended.yaml
+
+linter:
+  rules:
+    prefer_single_quotes: true
+    sort_constructors_first: false
+    prefer_final_locals: true
+    avoid_print: false
+    unnecessary_brace_in_string_interps: false

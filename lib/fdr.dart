@@ -1,0 +1,19 @@
+library fdr;
+
+export 'src/models/project_info.dart';
+export 'src/models/package_info.dart';
+export 'src/models/conflict.dart';
+export 'src/scanner/project_scanner.dart';
+export 'src/scanner/pubspec_scanner.dart';
+export 'src/scanner/gradle_scanner.dart';
+export 'src/scanner/podfile_scanner.dart';
+export 'src/scanner/flutter_sdk_scanner.dart';
+export 'src/fetcher/pub_api_client.dart';
+export 'src/engine/conflict_detector.dart';
+export 'src/engine/dart_checker.dart';
+export 'src/engine/android_checker.dart';
+export 'src/engine/ios_checker.dart';
+export 'src/engine/compatibility_matrix.dart';
+export 'src/reporter/terminal_reporter.dart';
+export 'src/reporter/json_reporter.dart';
+export 'src/cli/runner.dart';
